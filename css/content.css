@@ -25,3 +25,8 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.font-name{
+    font-family: "Proxima Nova Regular";
+    font-size: 190px;
+}
