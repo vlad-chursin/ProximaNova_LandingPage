@@ -4,7 +4,7 @@ body{
     background-color: #fdfdfd;
 }
 
-.name-block{
+.name-block, .about{
     margin: 15px 30px;
 }
 
@@ -29,4 +29,51 @@ body{
 .font-name{
     font-family: "Proxima Nova Regular";
     font-size: 190px;
+}
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .subtitle{
+    font-family: "Proxima Nova SemiBold";
+    font-size: 60px;
+}
+
+.about .title{
+    width: 16%;
+    line-height: 0.8;
+}
+
+.title img{
+    margin-top: 15px;
+}
+
+.arrow{
+    margin-left: 20px;
+}
+
+.font-story{
+    margin-left: 20px;
+}
+
+.font-story .story-title{
+    width: 40%;
+}
+
+.subtitle{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.story{
+    font-family: "Proxima Nova Light";
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.story-one{
+    margin-top: 50px;
 }
