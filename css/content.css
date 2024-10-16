@@ -3,3 +3,25 @@ body{
     margin: 0px auto;
     background-color: #fdfdfd;
 }
+
+.name-block{
+    margin: 15px 30px;
+}
+
+.abbreviation-name{
+    display: flex;
+    font-family: "Proxima Nova Light";
+    font-size: 60px;
+}
+
+.horizontal-line{
+    height: 1.5px;
+    background-color: #C3C3C3;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.features-block{
+    display: flex;
+    justify-content: center;
+}
