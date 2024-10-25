@@ -4,7 +4,7 @@ body{
     background-color: #fdfdfd;
 }
 
-.name-block, .about, .font-writings, .languages{
+.name-block, .about, .font-writings, .languages, .glyphs{
     margin: 15px 30px;
 }
 
@@ -148,4 +148,50 @@ body{
     font-family: "Proxima Nova Regular";
     font-size: 30px;
     text-wrap: wrap;
+}
+
+.glyphs{
+    margin-top: 120px;
+}
+
+.glyphs .glyphs-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.glyphs .line{
+    margin-left: 30px;
+    height: 2px;
+    background-color: #C3C3C3;
+    width: 100%;
+}
+
+.glyphs .title {
+    font-family: "Proxima Nova Regular";
+}
+
+.glyphs .info{
+    font-family: "Proxima Nova Light";
+    font-size: 24px;
+    width: 40%;
+}
+
+.glyphs .lines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glyphs .table {
+    margin-top: 55px;
+}
+
+.glyphs .glyph {
+    font-family: "Proxima Nova Light";
+    font-size: 60px;
+    border: 1px solid #C3C3C3;
+    width: 6%;
+    text-align: center;
+    padding: 20px;
 }
