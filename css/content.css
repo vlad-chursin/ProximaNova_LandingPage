@@ -4,7 +4,7 @@ body{
     background-color: #fdfdfd;
 }
 
-.name-block, .about, .font-writings, .languages, .glyphs{
+.name-block, .about, .font-writings, .languages, .glyphs, .digits{
     margin: 15px 30px;
 }
 
@@ -194,4 +194,47 @@ body{
     width: 6%;
     text-align: center;
     padding: 20px;
+}
+
+.digits{
+    margin-top: 80px;
+}
+
+.digits .title{
+    font-family: "Proxima Nova Regular";
+    font-size: 60px;
+}
+
+.digits .text p{
+    font-family: "Proxima Nova Light";
+    font-size: 24px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.digits .line{
+    height: 3px;
+    background-color: #C3C3C3;
+    width: 100%;
+}
+
+.digits .line-down{
+    margin-top: -10px;
+}
+
+.digits .digit-line{
+    font-family: "Proxima Nova Light";
+    font-size: 200px;
+    letter-spacing: -9px;
+    line-height: 140px;
+}
+
+.digits .simple-digits{
+    margin-top: 150px;
+}
+
+.digits .old-digits{
+    margin-top: 100px;
+    font-variant-numeric: oldstyle-nums;
 }
