@@ -367,3 +367,16 @@ body{
     font-variant-numeric: diagonal-fractions;
     margin-left: 150px;
 }
+
+.font-geometry .title{
+    font-family: "Proxima Nova Regular";
+    font-size: 60px;
+}
+
+footer .container{
+    margin: 50px 0;
+    font-family: "Proxima Nova Regular";
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
