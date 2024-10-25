@@ -4,7 +4,7 @@ body{
     background-color: #fdfdfd;
 }
 
-.name-block, .about{
+.name-block, .about, .font-writings, .languages{
     margin: 15px 30px;
 }
 
@@ -76,4 +76,76 @@ body{
 
 .story-one{
     margin-top: 50px;
+}
+
+.font-writings{
+    margin-top: 100px;
+    width: auto;
+    height: 900px;
+}
+
+.languages .title{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages .title p{
+    font-family: "Proxima Nova Regular";
+    font-size: 60px;
+}
+
+.languages .title .digit{
+    font-family: "Proxima Nova SemiBold";
+    font-size: 120px;
+    margin-top: 30px;
+}
+
+.languages .title .line-one{
+    height: 50px;
+    margin-top: 45px;
+}
+
+.languages .title .line-two{
+    height: 60px;
+    margin-top: 35px;
+}
+
+.languages .table {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.languages .language {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.language .number {
+    font-family: "Proxima Nova Bold";
+    font-size: 35px;
+}
+
+.language .lang-part{
+    margin-left: 16%;
+}
+
+.languages .line{
+    height: 1px;
+    background-color: #000;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.language .language-title {
+    font-family: "Proxima Nova SemiBold";
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.language .box{
+    font-family: "Proxima Nova Regular";
+    font-size: 30px;
+    text-wrap: wrap;
 }
