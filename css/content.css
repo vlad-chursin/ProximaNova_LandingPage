@@ -4,7 +4,8 @@ body{
     background-color: #fdfdfd;
 }
 
-.name-block, .about, .font-writings, .languages, .glyphs, .digits{
+.name-block, .about, .font-writings, .languages, .glyphs, .digits,
+.features{
     margin: 15px 30px;
 }
 
@@ -237,4 +238,132 @@ body{
 .digits .old-digits{
     margin-top: 100px;
     font-variant-numeric: oldstyle-nums;
+}
+
+.features{
+    margin-top: 100px;
+    display: flex;
+}
+
+/* .features .container{
+    width: 45%;
+} */
+
+/* .features .arrows{
+    width: 100%;
+    margin-top: 50px;
+} */
+
+.features .features-block{
+    display: flex;
+    margin-top: 150px;
+    justify-content: flex-start;
+}
+
+.features .column-two{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.features .title{
+    font-family: "Proxima Nova Regular";
+    font-size: 60px;
+}
+
+.features .box{
+    display: flex;
+}
+
+.features .name{
+    font-family: "Proxima Nova Regular";
+    font-size: 40px;
+}
+
+.features .symbols{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .symbol{
+    font-family: "Proxima Nova Light";
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+.features .lig{
+    font-variant-ligatures: contextual;
+}
+
+.features .graphems{
+    margin-top: 60px;
+}
+
+.features .graph-sym{
+    flex-direction: column;
+}
+
+.features .line-sym{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.features .line-sym .symbol{
+    width: 8%;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.features .line-sym img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.features .graphema{
+    font-variant-ligatures:contextual;
+    font-family: "Proxima Nova Light";
+    -moz-font-feature-settings: "salt" 2;
+    -webkit-font-feature-settings: "salt" 2;
+    font-feature-settings: "salt" 2;
+    text-align: center;
+}
+
+.features .zero{
+    font-variant-ligatures:contextual;
+    font-family: "Proxima Nova Light";
+    font-variant-numeric: slashed-zero;
+}
+
+.features .dingbats .symbols{
+    display: flex;
+    font-family: "Proxima Nova Regular";
+    font-size: 40px;
+    text-align: center;
+}
+
+.features .fractions{
+    margin-top: 150px;
+}
+
+.features .fractions .name{
+    width: 28%;
+}
+
+.features .fractions .symbols{
+    display: flex;
+    flex-direction: column;
+}
+
+.features .fractions .line{
+    display: flex;
+    flex-direction: row;
+}
+
+.features .fractions .symbol{
+    width: 10%;
+}
+
+.features .fraction{
+    font-variant-numeric: diagonal-fractions;
+    margin-left: 150px;
 }
