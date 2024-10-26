@@ -390,36 +390,25 @@ body{
 
 .features .features-block{
     display: flex;
-    margin-top: 150px;
+    margin-top: 125px;
     justify-content: flex-start;
 }
 
 .features .column-two{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 80px;
 }
 
 .features .title-block{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .features .title{
     font-family: "Proxima Nova Regular";
     font-size: 60px;
-    margin-top: 100px;
-}
-
-.features .title-block .line{
-    width: 50%;
-    height: 1px;
-    border-bottom: 2px solid transparent;
-    border-image: repeating-linear-gradient(
-      to right,
-      #ccc 0,
-      #ccc 15px,
-      transparent 10px,
-      transparent 30px 
-  ) 1;
 }
 
 .features .box{
@@ -448,7 +437,7 @@ body{
 }
 
 .features .graphems{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .features .graph-sym{
@@ -494,7 +483,7 @@ body{
 }
 
 .features .fractions{
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .features .fractions .name{
@@ -518,6 +507,12 @@ body{
 .features .fraction{
     font-variant-numeric: diagonal-fractions;
     margin-left: 150px;
+}
+
+.features .lines{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 470px;
 }
 
 .font-geometry .title{
