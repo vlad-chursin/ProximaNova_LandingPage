@@ -1,11 +1,11 @@
 body{
     width: 1440px;
     margin: 0px auto;
-    background-color: #fdfdfd;
+    background-color: #fbfbfb;
 }
 
 .name-block, .about, .font-writings, .languages, .glyphs, .digits,
-.features{
+.features, .font-geometry, footer{
     margin: 15px 30px;
 }
 
@@ -81,8 +81,137 @@ body{
 
 .font-writings{
     margin-top: 100px;
-    width: auto;
+}
+
+.font-writings .outline{
     height: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    /* background: url(../img/border.svg); */
+}
+
+.font-writings .font-grid{
+    margin-top: 80px;
+}
+
+.font-writings .column{
+    margin-left: 20px;
+}
+  
+.font-writings .title, .font-writings .column-title {
+    font-family: "Proxima Nova Regular";
+    font-size: 45px;
+    line-height: 0.8;
+}
+
+.font-writings .column-title-italic{
+    font-family: "Proxima Nova Regular Italic";
+    font-size: 45px;
+    line-height: 0.8;
+}
+
+.font-writings .column-subtitle{
+    font-family: "Proxima Nova Light";
+    font-size: 25px;
+    line-height: normal;
+}
+
+.font-writings .column-subtitle-italic{
+    font-family: "Proxima Nova Light Italic";
+    font-size: 25px;
+    line-height: normal;
+}
+
+.font-writings .font-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-writings .font-weight-block{
+    display: flex;
+}
+
+.font-writings .font-weights{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.font-writings .italic-block{
+    margin-right: 50px;
+}
+
+.font-writings .font-weights p{
+    margin-top: 40px;
+}
+
+.font-writings .font-weights .thin{
+    font-family: "Proxima Nova Thin";
+    font-size: 40px;
+}
+
+.font-writings .italic .thin{
+    font-family: "Proxima Nova Thin Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .light{
+    font-family: "Proxima Nova Light";
+    font-size: 40px;
+}
+
+.font-writings .italic .light{
+    font-family: "Proxima Nova Light Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .regular{
+    font-family: "Proxima Nova Regular";
+    font-size: 40px;
+}
+
+.font-writings .italic .regular{
+    font-family: "Proxima Nova Regular Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .semibold{
+    font-family: "Proxima Nova SemiBold";
+    font-size: 40px;
+}
+
+.font-writings .italic .semibold{
+    font-family: "Proxima Nova SemiBold Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .bold{
+    font-family: "Proxima Nova Bold";
+    font-size: 40px;
+}
+
+.font-writings .italic .bold{
+    font-family: "Proxima Nova Bold Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .extrabold{
+    font-family: "Proxima Nova ExtraBold";
+    font-size: 40px;
+}
+
+.font-writings .italic .extrabold{
+    font-family: "Proxima Nova ExtraBold Italic";
+    font-size: 40px;
+}
+
+.font-writings .font-weights .black{
+    font-family: "Proxima Nova Black";
+    font-size: 40px;
+}
+
+.font-writings .italic .black{
+    font-family: "Proxima Nova Black Italic";
+    font-size: 40px;
 }
 
 .languages .title{
