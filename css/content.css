@@ -87,15 +87,20 @@ body{
     height: 900px;
     padding: 20px;
     margin: 0 auto;
-    /* background: url(../img/border.svg); */
+    background-image: url(../img/border-weights.svg);
+    background-repeat: no-repeat;
 }
 
 .font-writings .font-grid{
     margin-top: 80px;
 }
 
-.font-writings .column{
-    margin-left: 20px;
+.font-writings .title{
+    margin-top: -30px;
+}
+
+.font-writings .column, .font-writings .title{
+    margin-left: 30px;
 }
   
 .font-writings .title, .font-writings .column-title {
@@ -383,15 +388,6 @@ body{
     display: flex;
 }
 
-/* .features .container{
-    width: 45%;
-} */
-
-/* .features .arrows{
-    width: 100%;
-    margin-top: 50px;
-} */
-
 .features .features-block{
     display: flex;
     margin-top: 150px;
@@ -403,9 +399,27 @@ body{
     margin-left: 80px;
 }
 
+.features .title-block{
+    display: flex;
+}
+
 .features .title{
     font-family: "Proxima Nova Regular";
     font-size: 60px;
+    margin-top: 100px;
+}
+
+.features .title-block .line{
+    width: 50%;
+    height: 1px;
+    border-bottom: 2px solid transparent;
+    border-image: repeating-linear-gradient(
+      to right,
+      #ccc 0,
+      #ccc 15px,
+      transparent 10px,
+      transparent 30px 
+  ) 1;
 }
 
 .features .box{
@@ -509,6 +523,7 @@ body{
 .font-geometry .title{
     font-family: "Proxima Nova Regular";
     font-size: 60px;
+    margin-top: 100px;
 }
 
 .font-geometry .image-block{
