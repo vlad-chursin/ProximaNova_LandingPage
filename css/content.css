@@ -511,6 +511,26 @@ body{
     font-size: 60px;
 }
 
+.font-geometry .image-block{
+    margin: 100px 0;
+}
+
+.font-geometry img{
+    width: 100%;
+}
+
+footer .line{
+    width: 100%;
+    border: 2px solid transparent;
+    border-image: repeating-linear-gradient(
+      to right,
+      #ccc 0,
+      #ccc 15px,
+      transparent 10px,
+      transparent 30px 
+  ) 1;
+}
+
 footer .container{
     margin: 50px 0;
     font-family: "Proxima Nova Regular";
