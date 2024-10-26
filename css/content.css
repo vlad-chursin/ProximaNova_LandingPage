@@ -108,6 +108,7 @@ body{
     font-family: "Proxima Nova Regular Italic";
     font-size: 45px;
     line-height: 0.8;
+    font-style: italic;
 }
 
 .font-writings .column-subtitle{
@@ -120,6 +121,7 @@ body{
     font-family: "Proxima Nova Light Italic";
     font-size: 25px;
     line-height: normal;
+    font-style: italic;
 }
 
 .font-writings .font-grid{
@@ -152,6 +154,7 @@ body{
 .font-writings .italic .thin{
     font-family: "Proxima Nova Thin Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .light{
@@ -162,6 +165,7 @@ body{
 .font-writings .italic .light{
     font-family: "Proxima Nova Light Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .regular{
@@ -172,6 +176,7 @@ body{
 .font-writings .italic .regular{
     font-family: "Proxima Nova Regular Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .semibold{
@@ -182,6 +187,7 @@ body{
 .font-writings .italic .semibold{
     font-family: "Proxima Nova SemiBold Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .bold{
@@ -192,6 +198,7 @@ body{
 .font-writings .italic .bold{
     font-family: "Proxima Nova Bold Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .extrabold{
@@ -202,6 +209,7 @@ body{
 .font-writings .italic .extrabold{
     font-family: "Proxima Nova ExtraBold Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .font-writings .font-weights .black{
@@ -212,6 +220,7 @@ body{
 .font-writings .italic .black{
     font-family: "Proxima Nova Black Italic";
     font-size: 40px;
+    font-style: italic;
 }
 
 .languages .title{
