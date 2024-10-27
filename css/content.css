@@ -2,6 +2,7 @@ body{
     width: 1440px;
     margin: 0px auto;
     background-color: #fbfbfb;
+    color: #1A1A1A;
 }
 
 .name-block, .about, .font-writings, .languages, .glyphs, .digits,
@@ -9,10 +10,30 @@ body{
     margin: 15px 30px;
 }
 
-.abbreviation-name{
-    display: flex;
+footer .container, .font-application li, .font-application .title, .font-geometry .title,
+.features .dingbats .symbols, .features .name, .features .title, .digits .title,
+.glyphs .title, .language .box, .languages .title p, .font-writings .title, .font-writings .column-title, 
+.font-writings .column-title-italic, .font-name{
+    font-family: "Proxima Nova Regular";
+}
+
+.abbreviation-name, .story, .font-writings .column-subtitle, .font-writings .column-subtitle-italic,
+.glyphs .info, .glyphs .glyph, .digits .text p, .digits .digit-line, .features .symbol,
+.features .graphema, .features .zero{
     font-family: "Proxima Nova Light";
+} 
+
+.abbreviation-name, .title, .subtitle, .languages .title p, .glyphs .glyph, .digits .title,
+.features .title, .features .symbol, .font-geometry .title, .font-application .title{
     font-size: 60px;
+}
+
+.abbreviation-name, .features-block, .about, .font-writings .font-grid, .font-writings .font-weight-block,
+.languages .title, .languages .table, .languages .language, .glyphs .glyphs-title, .glyphs .lines,
+.features, .features .features-block, .features .title-block, .features .box, .features .symbols,
+.features .line-sym, .features .dingbats .symbols, .features .fractions .symbols, .features .fractions .line,
+.font-application .text-block, footer .container{
+    display: flex;
 }
 
 .horizontal-line{
@@ -23,24 +44,20 @@ body{
 }
 
 .features-block{
-    display: flex;
     justify-content: center;
 }
 
 .font-name{
-    font-family: "Proxima Nova Regular";
     font-size: 190px;
 }
 
 .about{
     margin-top: 100px;
-    display: flex;
     justify-content: space-between;
 }
 
 .title, .subtitle{
     font-family: "Proxima Nova SemiBold";
-    font-size: 60px;
 }
 
 .about .title{
@@ -48,15 +65,11 @@ body{
     line-height: 0.8;
 }
 
-.title img{
+.about .title img{
     margin-top: 15px;
 }
 
-.arrow{
-    margin-left: 20px;
-}
-
-.font-story{
+.about .arrow, .font-story{
     margin-left: 20px;
 }
 
@@ -70,7 +83,6 @@ body{
 }
 
 .story{
-    font-family: "Proxima Nova Light";
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -103,44 +115,34 @@ body{
     margin-left: 30px;
 }
   
-.font-writings .title, .font-writings .column-title {
-    font-family: "Proxima Nova Regular";
+.font-writings .title, .font-writings .column-title, 
+.font-writings .column-title-italic {
     font-size: 45px;
     line-height: 0.8;
 }
 
 .font-writings .column-title-italic{
     font-family: "Proxima Nova Regular Italic";
-    font-size: 45px;
-    line-height: 0.8;
     font-style: italic;
 }
 
-.font-writings .column-subtitle{
-    font-family: "Proxima Nova Light";
+.font-writings .column-subtitle, 
+.font-writings .column-subtitle-italic{
     font-size: 25px;
     line-height: normal;
 }
 
 .font-writings .column-subtitle-italic{
     font-family: "Proxima Nova Light Italic";
-    font-size: 25px;
-    line-height: normal;
     font-style: italic;
 }
 
 .font-writings .font-grid{
-    display: flex;
     justify-content: space-between;
 }
 
-.font-writings .font-weight-block{
-    display: flex;
-}
-
 .font-writings .font-weights{
-    margin-top: 100px;
-    margin-left: 10px;
+    margin: 100px 0 0 10px;
 }
 
 .font-writings .italic-block{
@@ -151,92 +153,33 @@ body{
     margin-top: 40px;
 }
 
-.font-writings .font-weights .thin{
-    font-family: "Proxima Nova Thin";
+.font-writings .font-weights, .features .name, .features .dingbats .symbols,
+.font-geometry .title-block .subtitle, .font-application li, footer .container{
     font-size: 40px;
-}
+} 
 
-.font-writings .italic .thin{
-    font-family: "Proxima Nova Thin Italic";
-    font-size: 40px;
+.font-writings .italic {
     font-style: italic;
-}
+} 
 
-.font-writings .font-weights .light{
-    font-family: "Proxima Nova Light";
-    font-size: 40px;
-}
-
-.font-writings .italic .light{
-    font-family: "Proxima Nova Light Italic";
-    font-size: 40px;
-    font-style: italic;
-}
-
-.font-writings .font-weights .regular{
-    font-family: "Proxima Nova Regular";
-    font-size: 40px;
-}
-
-.font-writings .italic .regular{
-    font-family: "Proxima Nova Regular Italic";
-    font-size: 40px;
-    font-style: italic;
-}
-
-.font-writings .font-weights .semibold{
-    font-family: "Proxima Nova SemiBold";
-    font-size: 40px;
-}
-
-.font-writings .italic .semibold{
-    font-family: "Proxima Nova SemiBold Italic";
-    font-size: 40px;
-    font-style: italic;
-}
-
-.font-writings .font-weights .bold{
-    font-family: "Proxima Nova Bold";
-    font-size: 40px;
-}
-
-.font-writings .italic .bold{
-    font-family: "Proxima Nova Bold Italic";
-    font-size: 40px;
-    font-style: italic;
-}
-
-.font-writings .font-weights .extrabold{
-    font-family: "Proxima Nova ExtraBold";
-    font-size: 40px;
-}
-
-.font-writings .italic .extrabold{
-    font-family: "Proxima Nova ExtraBold Italic";
-    font-size: 40px;
-    font-style: italic;
-}
-
-.font-writings .font-weights .black{
-    font-family: "Proxima Nova Black";
-    font-size: 40px;
-}
-
-.font-writings .italic .black{
-    font-family: "Proxima Nova Black Italic";
-    font-size: 40px;
-    font-style: italic;
-}
+.font-writings .font-weights .thin{font-family: "Proxima Nova Thin";}
+.font-writings .italic .thin{font-family: "Proxima Nova Thin Italic";}
+.font-writings .font-weights .light{font-family: "Proxima Nova Light";}
+.font-writings .italic .light{font-family: "Proxima Nova Light Italic";}
+.font-writings .font-weights .regular{font-family: "Proxima Nova Regular";}
+.font-writings .italic .regular{font-family: "Proxima Nova Regular Italic";}
+.font-writings .font-weights .semibold{font-family: "Proxima Nova SemiBold";}
+.font-writings .italic .semibold{font-family: "Proxima Nova SemiBold Italic";}
+.font-writings .font-weights .bold{font-family: "Proxima Nova Bold";}
+.font-writings .italic .bold{font-family: "Proxima Nova Bold Italic";}
+.font-writings .font-weights .extrabold{font-family: "Proxima Nova ExtraBold";}
+.font-writings .italic .extrabold{font-family: "Proxima Nova ExtraBold Italic";}
+.font-writings .font-weights .black{font-family: "Proxima Nova Black";}
+.font-writings .italic .black{font-family: "Proxima Nova Black Italic";}
 
 .languages .title{
     margin-top: 110px;
-    display: flex;
     justify-content: space-between;
-}
-
-.languages .title p{
-    font-family: "Proxima Nova Regular";
-    font-size: 60px;
 }
 
 .languages .title .digit{
@@ -257,12 +200,10 @@ body{
 
 .languages .table {
     margin-top: 80px;
-    display: flex;
     flex-direction: column;
 }
 
 .languages .language {
-    display: flex;
     justify-content: flex-start;
 }
 
@@ -289,7 +230,6 @@ body{
 }
 
 .language .box{
-    font-family: "Proxima Nova Regular";
     font-size: 30px;
     text-wrap: wrap;
 }
@@ -299,7 +239,6 @@ body{
 }
 
 .glyphs .glyphs-title{
-   display: flex;
    justify-content: space-between;
    align-items: center;
 }
@@ -311,18 +250,12 @@ body{
     width: 100%;
 }
 
-.glyphs .title {
-    font-family: "Proxima Nova Regular";
-}
-
 .glyphs .info{
-    font-family: "Proxima Nova Light";
     font-size: 24px;
     width: 40%;
 }
 
 .glyphs .lines{
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -332,8 +265,6 @@ body{
 }
 
 .glyphs .glyph {
-    font-family: "Proxima Nova Light";
-    font-size: 60px;
     border: 1px solid #C3C3C3;
     width: 6%;
     text-align: center;
@@ -344,17 +275,10 @@ body{
     margin-top: 80px;
 }
 
-.digits .title{
-    font-family: "Proxima Nova Regular";
-    font-size: 60px;
-}
-
 .digits .text p{
-    font-family: "Proxima Nova Light";
     font-size: 24px;
     width: 50%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin: 40px 0 20px 0;
 }
 
 .digits .line{
@@ -368,7 +292,6 @@ body{
 }
 
 .digits .digit-line{
-    font-family: "Proxima Nova Light";
     font-size: 200px;
     letter-spacing: -9px;
     line-height: 140px;
@@ -385,50 +308,29 @@ body{
 
 .features{
     margin-top: 100px;
-    display: flex;
 }
 
 .features .features-block{
-    display: flex;
     margin-top: 125px;
     justify-content: flex-start;
 }
 
 .features .column-two{
-    margin-top: 80px;
-    margin-left: 80px;
+    margin: 80px 0 0 80px;
 }
 
 .features .title-block{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
 
-.features .title{
-    font-family: "Proxima Nova Regular";
-    font-size: 60px;
-}
-
-.features .box{
-    display: flex;
-}
-
-.features .name{
-    font-family: "Proxima Nova Regular";
-    font-size: 40px;
-}
-
 .features .symbols{
     margin-left: 50px;
-    display: flex;
     justify-content: space-between;
 }
 
 .features .symbol{
-    font-family: "Proxima Nova Light";
-    font-size: 60px;
     margin-left: 30px;
 }
 
@@ -445,7 +347,6 @@ body{
 }
 
 .features .line-sym{
-    display: flex;
     margin-bottom: 30px;
 }
 
@@ -456,13 +357,11 @@ body{
 }
 
 .features .line-sym img{
-    margin-top: 25px;
-    margin-left: 20px;
+    margin: 25px 0 0 20px;
 }
 
 .features .graphema{
     font-variant-ligatures:contextual;
-    font-family: "Proxima Nova Light";
     -moz-font-feature-settings: "salt" 2;
     -webkit-font-feature-settings: "salt" 2;
     font-feature-settings: "salt" 2;
@@ -471,14 +370,10 @@ body{
 
 .features .zero{
     font-variant-ligatures:contextual;
-    font-family: "Proxima Nova Light";
     font-variant-numeric: slashed-zero;
 }
 
 .features .dingbats .symbols{
-    display: flex;
-    font-family: "Proxima Nova Regular";
-    font-size: 40px;
     text-align: center;
 }
 
@@ -491,12 +386,10 @@ body{
 }
 
 .features .fractions .symbols{
-    display: flex;
     flex-direction: column;
 }
 
 .features .fractions .line{
-    display: flex;
     flex-direction: row;
 }
 
@@ -511,13 +404,10 @@ body{
 
 .features .lines{
     position: absolute;
-    margin-top: 130px;
-    margin-left: 470px;
+    margin: 130px 0 0 470px;
 }
 
 .font-geometry .title{
-    font-family: "Proxima Nova Regular";
-    font-size: 60px;
     margin-top: 100px;
 }
 
@@ -527,25 +417,20 @@ body{
 
 .font-geometry img{
     width: 100%;
-    position: relative;
-    z-index: 1;
 }
 
 .font-geometry .title-block{
-    z-index: 2;
     margin-top: 230px;
     position: absolute;
 }
 
 .font-geometry .title-block .subtitle{
-    font-size: 40px;
     margin: 0 0;
 }
 
 .font-geometry .title-block .title{
-    margin-top: -30px;
+    margin: -30px 0 0 -21px;
     font-size: 322px;
-    margin-left: -21px;
     font-family: "Proxima Nova SemiBold";
 }
 
@@ -554,25 +439,19 @@ body{
 }
 
 .font-application .text-block{
-    display: flex;
     justify-content: space-between;
 }
 
 .font-application .title{
-    font-family: "Proxima Nova Regular";
-    font-size: 60px;
     line-height: 0.8;
     width: 350px;
 }
 
 .font-application .application{
-    margin-right: 50px;
-    margin-top: 200px;
+    margin: 200px 50px 0 0;
 }
 
 .font-application li{
-    font-family: "Proxima Nova Regular";
-    font-size: 40px;
     line-height: 1.4;
 }
 
@@ -595,8 +474,5 @@ footer .line{
 
 footer .container{
     margin: 50px 0;
-    font-family: "Proxima Nova Regular";
-    font-size: 40px;
-    display: flex;
     justify-content: space-between;
 }
