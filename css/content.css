@@ -5,7 +5,7 @@ body{
 }
 
 .name-block, .about, .font-writings, .languages, .glyphs, .digits,
-.features, .font-geometry, footer{
+.features, .font-geometry, footer, .font-application{
     margin: 15px 30px;
 }
 
@@ -547,6 +547,38 @@ body{
     font-size: 322px;
     margin-left: -21px;
     font-family: "Proxima Nova SemiBold";
+}
+
+.font-application{
+    margin-top: 100px;
+}
+
+.font-application .text-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-application .title{
+    font-family: "Proxima Nova Regular";
+    font-size: 60px;
+    line-height: 0.8;
+    width: 350px;
+}
+
+.font-application .application{
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.font-application li{
+    font-family: "Proxima Nova Regular";
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.font-application img{
+    width: 100%;
+    margin-top: -360px;
 }
 
 footer .line{
